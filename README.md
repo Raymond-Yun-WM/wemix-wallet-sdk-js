@@ -59,6 +59,11 @@ To run Example codes, either NPM environment or Parcel installation is required.
 npm install -g parcel-bundler
 ```
 
+### Modify network about example. @wemix-wallet-sdk-js/src/constants.ts
+```javascript
+export let baseURL: string = "https://a2a.test.wemix.com/api/v1/a2a";
+```
+
 ### Run Example code
 
 ```sh
